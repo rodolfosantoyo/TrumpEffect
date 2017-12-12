@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="icon" href="images/POTUSSeal.png"/>
+        <title>The Trump Effect</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/style.js"></script>
+    </head>
+    <body>
+        <h1><img src="images/TrumpEffectLogo.png" height="200"></h1>
+        <!-- TradingView Widget BEGIN -->
+        <span id="tradingview-copyright"><a ref="nofollow noopener" target="_blank" href="http://www.tradingview.com" style="color: rgb(173, 174, 176); font-family: &quot;Trebuchet MS&quot;, Tahoma, Arial, sans-serif; font-size: 13px;">Quotes by <span style="color: #3BB3E4">TradingView</span></a></span>
+        <script src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js">{
+            "symbols": [
+              {
+                "proName": "FX_IDC:EURUSD",
+                "title": "EUR/USD"
+              },
+              {
+                "proName": "NYMEX:CL1!",
+                "title": "Crude Oil"
+              },
+              {
+                "proName": "FX_IDC:XAUUSD",
+                "title": "Gold"
+              },
+              {
+                "description": "Bitcoin",
+                "proName": "BITSTAMP:BTCUSD"
+              },
+              {
+                "description": "S&P 100",
+                "proName": "CBOE:OEX"
+              }
+            ],
+            "locale": "en"
+            }
+        </script>
+        <!-- TradingView Widget END -->
+        <div class="wid_100">
+            <div class="wid_50">
+                <input type="text" name="company" class="cmp_txt" placeholder="Company Name">
+                <input type="submit" class="submit cmp_search" id="submit" value="Search">
+            </div>
+            <div class="wid_50">
+                <input type="text" name="finace" class="fin_txt" placeholder="Financial News">
+                <input type="submit" class="submit1 fin_search" id="submit1" value="Search">
+            </div>
+            <div class="clear"></div>
+            <div class="wid_25">
+                <!-- Ticker Widget END -->
+                <!-- Twitter Timeline BEG -->
+                <a class="twitter-timeline" class="widgets" data-width="420" data-height="1800" data-align="right" href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw">Tweets by realDonaldTrump</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                <!-- Twitter Timeline END -->
+            </div>
+            <div class="wid_75">
+                <div class="marg_20">
+                </div>
+                <!-- Stock Market Graphs BEGIN -->
+                <div id="tv-medium-widget-a79a0" class="widgets" class="DJI"></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                <script type="text/javascript">
+                    new TradingView.MediumWidget({
+                      "container_id": "tv-medium-widget-a79a0",
+                      "symbols": [
+                        [
+                          "Dow Jones",
+                          "DJ:DJI|1y"
+                        ],
+                        [
+                          "S&P 500",
+                          "SP:SPX|1y"
+                        ],
+                        [
+                          "Volatility",
+                          "CBOE:VIX|1y"
+                        ]
+                      ],
+                      "greyText": "Quotes by",
+                      "gridLineColor": "#e9e9ea",
+                      "fontColor": "#83888D",
+                      "underLineColor": "#dbeffb",
+                      "trendLineColor": "#4bafe9",
+                      "width": "700px",
+                      "height": "400px",
+                      "locale": "en"
+                    });
+                </script>
+                <!-- Stock Market Graphs END -->
+                <!-- News SourceStarts Here --> 
+                <script type="text/javascript" class="news" src="http://news.24-7pressrelease.com/247pr-news-widget.js?widgettitle=News Around the World&amp;categories=106,107,333,334,335,336,337,108,300,338,109,110,139,339,171,111,112,340,341,113,342,343,114,344,115,345,319,116,347,348,383,384,385,386,387,138,388,389,390,391,226,392,241,393,394,395,396,174,175,176,81,103,105,117,178,118,179,304,180,306,133,134,140,142,141,169,172,173,192,193,309,181,418,182,183,419,228,230,232,233,184,239,185,242,313,186,187,245,188,189,421,243,191,279,280,195,143,144,398,146,147,148,149,399,400,150,401,151,231,152,402,403,404,153,154,405,406,155,407,409,&amp;showRelease=1&amp;width=auto&amp;headlinebold=1&amp;headlinesonly=0&amp;headlinecolor=2d57a1&amp;briefcolor=666666&amp;textcolor=333333&amp;typeface=arial&amp;fontsize=11&amp;width=auto&amp;headlinesepstyle=dotted&amp;showimages=1&amp;numstories=10&amp;bgcolor=ffffff&amp;urldest=local"></script> 
+                <!-- News SourceEnds Here -->
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </body>
+</html>

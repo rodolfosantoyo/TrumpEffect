@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(white);
+    ;
+}
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Georgia', time;
+    color: black;
+}
+.widgets {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    width: 98%;
+}
+.twitter-timeline {
+    margin-left: 10px
+}
+.clear {
+    clear: both;
+}
+.cmp_search {
+    background: #0070C0;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.cmp_txt {
+    padding-bottom: 30px;
+}
+.wid_100 {
+    width: 96%;
+    margin: 0 auto;
+    ;
+}
+.wid_50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+.wid_75 {
+    width: 65%;
+    float: right;
+}
+.wid_25 {
+    width: 30%;
+    float: left;
+}
+input.cmp_txt {
+    height: 46px !important;
+    width: 74%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+input.cmp_search {
+    width: 25%;
+    height: 46px;
+}
+form.cmp_frm {
+    margin-left: 10px;
+}
+input.fin_txt {
+    height: 46px !important;
+    width: 74%;
+    padding: 10px;
+}
+input.fin_search {
+    width: 25%;
+    height: 46px;
+}
+form.fin_frm {
+    margin-left: 10px;
+}
+.fin_search {
+    background: #0070C0;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.marg_20 {
+    margin-left: 10px;
+}
